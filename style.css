@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Sassy+Frass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-family: 'Sassy Frass', cursive;
+    font-size: 4vw;
+    margin-left: 5vw;
+}
+
+.nav input{
+    width: 40vw;
+    height: 4vh;
+    border-radius: 5vw;
+    text-align: center;
+    margin-left: 15vw;
+    margin-right: 20vw;
+}
+
+.nav button{
+    width: 10vw;
+    margin-right: 10vw;
+    height: 5vh;
+    width:10vw;
+    border-radius: 4vw;
+}
+
+.search{
+    display: none;
+    height: 30vh;
+    width: 40vw;
+    margin: 5vh auto;
+    border: 2px solid black;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+#load{
+    display: none;
+    margin: 0 40vw;
+}
+
+.search div{
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 1vh;
+    font-family: 'Merriweather', serif;
+}
+
+.extra{
+    text-align: center;
+}
+
+.extra h1{
+    margin: 4vh;
+}
+
+.table{
+    width: 100vw;
+}
+
+.table,td,th{
+    border: 2px solid black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    /* font size: 2vw; */
+    position: fixed;
+    bottom: 0;
+    height: 8vh;
+    width: 100vw;
+}
