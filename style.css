@@ -28,7 +28,7 @@
     height: 4vh;
     border-radius: 5vw;
     text-align: center;
-    margin-left: 15vw;
+    margin-left: 8vw;
     margin-right: 20vw;
 }
 
@@ -71,7 +71,8 @@
 }
 
 .table{
-    width: 100vw;
+    width: 95vw;
+    margin: 0 auto;
 }
 
 .table,td,th{
@@ -90,4 +91,48 @@ footer{
     bottom: 0;
     height: 8vh;
     width: 100vw;
+}
+
+@media screen and (max-width:600px) {
+    .table,td,th{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .search div{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .table,td,th{
+        font-size: 8px;
+    }
+    h1{
+        font-size: 20px;
+    }
+
+    .search div{
+        font-size: 7px;
+        height: 40px;
+    }
+    .nav a{
+        font-size: medium;
+    }
+    .nav input{
+        margin-left: 20px;
+        margin-right: 9px;
+        font-size: 8px;
+    }
+    .nav button{
+        height: 20px;
+        width: 50px;
+        font-size: 10px;
+    }
+
+    footer{
+        width: 100vw;
+        font-size: 8px;
+    }
 }
