@@ -136,6 +136,10 @@ footer{
         font-size: 8px;
     }
     .search div{
-        margin: 0;
+        margin:0;
     }
+    .search h1{
+        font-size: 12px;
+    }
+}
 }
