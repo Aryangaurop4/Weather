@@ -135,4 +135,7 @@ footer{
         width: 100vw;
         font-size: 8px;
     }
+    .search div{
+        margin: 0;
+    }
 }
